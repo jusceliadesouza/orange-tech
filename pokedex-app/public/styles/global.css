@@ -31,7 +31,7 @@ body {
   background-color: #678FEE
 }
 
-.eletric {
+.electric {
   background-color: #F7CF2e
 }
 
@@ -151,6 +151,29 @@ body {
 .detail img {
   max-width: 100%;
   height: 100px;
+}
+
+.pagination {
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  padding: .5rem 1rem;
+
+  color: white;
+  font-size: .625rem;
+  
+  border: none;
+  border-radius: 1rem;
+  background-color: #6C79DB;
+
+  cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {

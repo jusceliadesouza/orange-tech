@@ -23,14 +23,6 @@ function convertPokemonToLi(pokemon) {
 
 const pokemonList = document.getElementById("pokemonList");
 
-fetch(url)
-  .then((res) => res.json())
-  .then((jsonBody) => jsonBody.results)
-  .then((pokemons) => {
-    for (let i = 0; i < pokemons.length; i++) {
-      const pokemon = pokemons[i];
-      
-      pokemonList.innerHTML += convertPokemonToLi(pokemon);
-    }
-  })
-  .catch((err) => console.error(err));
+pokeApi.getPokemons().then((pokemons = []) => {
+  pokemonList.innerHTML += pokemons.map(convertPokemonToLi).join('')
+});

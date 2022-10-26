@@ -1,15 +1,29 @@
 # Orange Tech +
 
-Repositório de atividades realizadas durante o bootcamp Orange Tech, da Dio, cuja finalidade é aprender desenvolvimento full-stack do zero.
+Repositório de atividades realizadas durante o bootcamp Orange Tech+, da Dio e oferecido pelo banco Inter,  cuja finalidade é aprender desenvolvimento full-stack do zero.
 
-### Índice
+<h3> Índice </h3>
 
+- [Exercícios](#exercícios)
+- [Desafios](#desafios)
 - [Projetos](#projetos)
 - [Tecnologias](#tecnologias)
+
+## Exercícios
+
+{ em breve }
+
+## Desafios
+
+{ em breve }
 
 ## Projetos
 
 1. [Pokedex App](/pokedex-app)
+2. Calculadora
+3. Wiki Repositórios
+4. Tela de Cadastro da DIO
+5. Tela de Login com Validação
 
 ## Tecnologias
 

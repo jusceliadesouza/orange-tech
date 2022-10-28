@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
 
+import Header from '../components/Header'
+
 export function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Link to={'/login'}>Login</Link>
+    <div className='flex flex-col items-center'>
+      <Header />
     </div>
   )
 }

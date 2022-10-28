@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#1E192C] text-gray-100;
+}
+
+.column {
+  @apply flex flex-col items-center;
+}
+
+.row {
+  @apply flex flex-row items-center;
+}
+
+.container {
+  @apply w-full px-16 flex justify-between items-center my-0 mx-auto;
+}
+
+.avatar  {
+  @apply w-24
+}
+
+
+.menu a {
+  @apply font-['Open-sans'] text-xs leading-6 mr-3 no-underline;
+}
+
+.btn {
+  @apply bg-gray-500 rounded-full py-[2px] px-3 min-w-[7.5rem] w-full 
+}
+
+.btn-primary {
+  @apply bg-[#E41050] min-w-[11rem];
+}
+
+.search {
+  @apply w-44 h-8 bg-gray-700 rounded-lg my-0 mx-3 flex items-center justify-center;
+}
+
+input {
+  @apply bg-transparent flex-1 border-0 rounded-lg py-1 px-4; 
+}
+

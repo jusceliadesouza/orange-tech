@@ -1,6 +1,6 @@
 # Orange Tech +
 
-Repositório de atividades realizadas durante o bootcamp Orange Tech+, da Dio e oferecido pelo banco Inter,  cuja finalidade é aprender desenvolvimento full-stack do zero.
+Repositório de atividades realizadas durante o bootcamp Orange Tech+, da Dio e oferecido pelo banco Inter, cuja finalidade é aprender desenvolvimento full-stack do zero.
 
 <h3> Índice </h3>
 
@@ -9,9 +9,9 @@ Repositório de atividades realizadas durante o bootcamp Orange Tech+, da Dio e 
 - [Projetos](#projetos)
 - [Tecnologias](#tecnologias)
 
-## Exercícios
+## Atividades
 
-{ em breve }
+1. Dio Clone
 
 ## Desafios
 

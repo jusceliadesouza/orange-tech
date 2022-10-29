@@ -1,0 +1,11 @@
+  .btn {
+    @apply bg-gray-500 hover:bg-gray-600 rounded-full py-[2px] px-3 min-w-[7.5rem] w-full relative;
+  }
+
+  .btn-primary {
+    @apply bg-[#E3105D] min-w-[11rem] hover:bg-pink-700; 
+  }
+
+  .after {
+    @apply after:min-w-[10.5rem] after:h-8 after:content-[''] after:absolute after:border after:border-[#E3105D] after:-top-[5px] after:-left-[6px] after:w-[calc(100%+10px)] after:h-[calc(100%+10px)] after:rounded-3xl after:opacity-60 after:cursor-pointer
+  }
